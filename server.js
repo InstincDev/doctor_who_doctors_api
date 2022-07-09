@@ -3,22 +3,41 @@ const app = express();
 const PORT = 8000;
 
 const doctors = {
-    "william hartnell": {
+    firstDoctor: {
         doctorRegeneration: 0,
         doctorIncarnation: 1,
-        actorName: "William Hartnell",
+        originalActor: "William Hartnell",
+        otherActors: [
+            "Richard Hurndall",
+            "John Guilor",
+            "Michael Jones",
+            "David Bradley",
+        ],
         seasons: 4,
-        interestingFacts: "",
-        companions: [],
+        interestingFacts:
+            "He originally traveled with his granddaughter Susan. He is the only Doctor that smoked. ",
+        style: "He often appeared in a black frock coat, yellow tweed waistcoat, dark blue ascot tie, and tartan trousers; accessorized with a cape, scarf, monocle, and wooden cane.",
+        companions: [
+            "Susan Foreman",
+            "Barbara Wright",
+            "Ian Chesterton",
+            "Vicki",
+            "Steven Taylor",
+            "Katarina",
+            "Sara Kingdom",
+            "Dodo Chaplet",
+            "Polly",
+            "Ben Jackson",
+        ],
         image: "",
-        episodeFirst: "",
-        episodeLast: "",
+        episodeFirst: "An Unearthly Child",
+        episodeLast: "The Tenth Planet",
         tenure: "1963-1966",
     },
     "patrick throughton": {
         doctorRegeneration: 1,
         doctorIncarnation: 2,
-        actorName: "Patrick Throughton",
+        originalActor: "Patrick Throughton",
         seasons: 2,
         interestingFacts: "",
         companions: [],
@@ -30,7 +49,7 @@ const doctors = {
     "jon pertwee": {
         doctorRegeneration: 2,
         doctorIncarnation: 3,
-        actorName: "Jon Pertwee",
+        originalActor: "Jon Pertwee",
         seasons: 5,
         interestingFacts: "",
         companions: [],
@@ -42,7 +61,7 @@ const doctors = {
     "tom baker": {
         doctorRegeneration: 3,
         doctorIncarnation: 4,
-        actorName: "Tom Baker",
+        originalActor: "Tom Baker",
         seasons: 7,
         interestingFacts: "",
         companions: [],
@@ -54,7 +73,7 @@ const doctors = {
     "peter davison": {
         doctorRegeneration: 4,
         doctorIncarnation: 5,
-        actorName: "Peter Davison",
+        originalActor: "Peter Davison",
         seasons: 3,
         interestingFacts: "",
         companions: [],
@@ -66,7 +85,7 @@ const doctors = {
     "colin baker": {
         doctorRegeneration: 5,
         doctorIncarnation: 6,
-        actorName: "Colin Baker",
+        originalActor: "Colin Baker",
         seasons: 2,
         interestingFacts: "",
         companions: [],
@@ -78,7 +97,7 @@ const doctors = {
     "sylvester mccoy": {
         doctorRegeneration: 6,
         doctorIncarnation: 7,
-        actorName: "Sylvester McCoy",
+        originalActor: "Sylvester McCoy",
         seasons: 3,
         interestingFacts: "",
         companions: [],
@@ -90,7 +109,7 @@ const doctors = {
     "paul mcgann": {
         doctorRegeneration: 7,
         doctorIncarnation: 8,
-        actorName: "Paul McGann",
+        originalActor: "Paul McGann",
         seasons: "movie",
         interestingFacts: "",
         companions: [],
@@ -102,7 +121,7 @@ const doctors = {
     "john hurt": {
         doctorRegeneration: 8,
         doctorIncarnation: undefined,
-        actorName: "John Hurt",
+        originalActor: "John Hurt",
         seasons: "",
         interestingFacts: "",
         companions: [],
@@ -114,7 +133,7 @@ const doctors = {
     "christopher eccleston": {
         doctorRegeneration: 9,
         doctorIncarnation: 9,
-        actorName: "Christopher Eccleston",
+        originalActor: "Christopher Eccleston",
         seasons: 1,
         interestingFacts: "",
         companions: [],
@@ -126,7 +145,7 @@ const doctors = {
     "david tennant": {
         doctorRegeneration: 10,
         doctorIncarnation: 10,
-        actorName: "David Tennant",
+        originalActor: "David Tennant",
         seasons: 3,
         interestingFacts: "",
         companions: [],
@@ -138,7 +157,7 @@ const doctors = {
     "matt smith": {
         doctorRegeneration: 12,
         doctorIncarnation: 11,
-        actorName: "Matt Smith",
+        originalActor: "Matt Smith",
         seasons: 3,
         interestingFacts: "",
         companions: [],
@@ -150,7 +169,7 @@ const doctors = {
     "peter capaldi": {
         doctorRegeneration: 13,
         doctorIncarnation: 12,
-        actorName: "Peter Capaldi",
+        originalActor: "Peter Capaldi",
         seasons: 3,
         interestingFacts: "",
         companions: [],
@@ -162,7 +181,7 @@ const doctors = {
     "jodie whittaker": {
         doctorRegeneration: 14,
         doctorIncarnation: 13,
-        actorName: "Jodie Whittaker",
+        originalActor: "Jodie Whittaker",
         seasons: 3,
         interestingFacts: "",
         companions: [],
@@ -174,7 +193,7 @@ const doctors = {
     "ncuti gatwa": {
         doctorRegeneration: 15,
         doctorIncarnation: 14,
-        actorName: "Ncuti Gatwa",
+        originalActor: "Ncuti Gatwa",
         seasons: "unknown",
         interestingFacts: "",
         companions: [],
