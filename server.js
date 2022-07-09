@@ -15,7 +15,7 @@ const doctors = {
         ],
         seasons: 4,
         interestingFacts:
-            "He originally traveled with his granddaughter Susan. He is the only Doctor that smoked. ",
+            "He originally traveled with his granddaughter Susan. He is the only Doctor that smoked.",
         style: "He often appeared in a black frock coat, yellow tweed waistcoat, dark blue ascot tie, and tartan trousers; accessorized with a cape, scarf, monocle, and wooden cane.",
         companions: [
             "Susan Foreman",
@@ -34,16 +34,18 @@ const doctors = {
         episodeLast: "The Tenth Planet",
         tenure: "1963-1966",
     },
-    "patrick throughton": {
+    "secondDoctor": {
         doctorRegeneration: 1,
         doctorIncarnation: 2,
         originalActor: "Patrick Throughton",
-        seasons: 2,
-        interestingFacts: "",
-        companions: [],
+        otherActors: [],
+        seasons: 3,
+        interestingFacts: "The Second Doctor had a more childlike personality than the First Doctor. His regeneration into the Third Doctor was forced by the Time Lords as punishment for breaking the laws of non-interference",
+        style: "He often appeared in a a large coat, houndstooth trousers, suspenders, blue collared button-up shirt, and bow tie held on with a safety pin.",
+        companions: ['Polly', 'Ben Jackson', 'Jamie McCrimmon', 'Victoria Waterfield', 'Zoe Heriot'],
         image: "",
-        episodeFirst: "",
-        episodeLast: "",
+        episodeFirst: "The Power of the Daleks",
+        episodeLast: "The War Games",
         tenure: "1966-1969",
     },
     "jon pertwee": {
