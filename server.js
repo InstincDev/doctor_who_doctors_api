@@ -3,7 +3,7 @@ const app = express();
 const PORT = 8000;
 
 const doctors = {
-    firstDoctor: {
+    "firstdoctor": {
         doctorRegeneration: 0,
         doctorIncarnation: 1,
         originalActor: "William Hartnell",
@@ -34,7 +34,7 @@ const doctors = {
         episodeLast: "The Tenth Planet",
         tenure: "1963-1966",
     },
-    "secondDoctor": {
+    "seconddoctor": {
         doctorRegeneration: 1,
         doctorIncarnation: 2,
         originalActor: "Patrick Throughton",
@@ -212,7 +212,8 @@ app.get("/", (req, res) => {
 
 app.get("/api/:doctorName", (req, res) => {
     const doctorName = req.params.doctorName.toLowerCase();
-
+    console.log(doctorName)
+    console.log(doctors[doctorName])
     if (doctors[doctorName]) {
         res.json(doctors[doctorName]);
     } else {
