@@ -5,7 +5,7 @@ const PORT = 8000;
 const doctors = {
     "firstdoctor": {
         doctorRegeneration: 0,
-        doctorIncarnation: 1,
+        doctorIncarnation: 'First Doctor',
         originalActor: "William Hartnell",
         otherActors: [
             "Richard Hurndall",
@@ -36,7 +36,7 @@ const doctors = {
     },
     "seconddoctor": {
         doctorRegeneration: 1,
-        doctorIncarnation: 2,
+        doctorIncarnation: "Second Doctor",
         originalActor: "Patrick Throughton",
         otherActors: [],
         seasons: 3,
@@ -50,7 +50,7 @@ const doctors = {
     },
     "thirddoctor": {
         doctorRegeneration: 2,
-        doctorIncarnation: 3,
+        doctorIncarnation: "Third Doctor",
         originalActor: "Jon Pertwee",
         otherActors: [],
         seasons: 5,
@@ -64,7 +64,7 @@ const doctors = {
     },
     "fourthdoctor": {
         doctorRegeneration: 3,
-        doctorIncarnation: 4,
+        doctorIncarnation: "Fourth Doctor",
         originalActor: "Tom Baker",
         otherActors: [],
         seasons: 7,
@@ -76,13 +76,13 @@ const doctors = {
         episodeLast: "Logopolis",
         tenure: "1974-1981",
     },
-    "peter davison": {
+    "fifthdoctor": {
         doctorRegeneration: 4,
-        doctorIncarnation: 5,
+        doctorIncarnation: "Fifth Doctor",
         originalActor: "Peter Davison",
         seasons: 3,
         interestingFacts: "",
-        companions: [],
+        companions: ['Adric', 'Tegan Javanka', 'Vislor Turlough', 'Kamelion'],
         image: "",
         episodeFirst: "",
         episodeLast: "",
@@ -90,7 +90,7 @@ const doctors = {
     },
     "colin baker": {
         doctorRegeneration: 5,
-        doctorIncarnation: 6,
+        doctorIncarnation: "Sixth Doctor",
         originalActor: "Colin Baker",
         seasons: 2,
         interestingFacts: "",
@@ -102,7 +102,7 @@ const doctors = {
     },
     "sylvester mccoy": {
         doctorRegeneration: 6,
-        doctorIncarnation: 7,
+        doctorIncarnation: "Seventh Doctor",
         originalActor: "Sylvester McCoy",
         seasons: 3,
         interestingFacts: "",
@@ -114,7 +114,7 @@ const doctors = {
     },
     "paul mcgann": {
         doctorRegeneration: 7,
-        doctorIncarnation: 8,
+        doctorIncarnation: "Eight Doctor",
         originalActor: "Paul McGann",
         seasons: "movie",
         interestingFacts: "",
@@ -126,7 +126,7 @@ const doctors = {
     },
     "john hurt": {
         doctorRegeneration: 8,
-        doctorIncarnation: undefined,
+        doctorIncarnation: "War Doctor",
         originalActor: "John Hurt",
         seasons: "",
         interestingFacts: "",
@@ -138,7 +138,7 @@ const doctors = {
     },
     "christopher eccleston": {
         doctorRegeneration: 9,
-        doctorIncarnation: 9,
+        doctorIncarnation: 'Ninth Doctor',
         originalActor: "Christopher Eccleston",
         seasons: 1,
         interestingFacts: "",
@@ -150,7 +150,7 @@ const doctors = {
     },
     "david tennant": {
         doctorRegeneration: 10,
-        doctorIncarnation: 10,
+        doctorIncarnation: "Tenth Doctor",
         originalActor: "David Tennant",
         seasons: 3,
         interestingFacts: "",
@@ -162,7 +162,7 @@ const doctors = {
     },
     "matt smith": {
         doctorRegeneration: 12,
-        doctorIncarnation: 11,
+        doctorIncarnation: 'Eleventh Doctor',
         originalActor: "Matt Smith",
         seasons: 3,
         interestingFacts: "",
@@ -174,7 +174,7 @@ const doctors = {
     },
     "peter capaldi": {
         doctorRegeneration: 13,
-        doctorIncarnation: 12,
+        doctorIncarnation: "Twelfth   Doctor",
         originalActor: "Peter Capaldi",
         seasons: 3,
         interestingFacts: "",
@@ -186,7 +186,7 @@ const doctors = {
     },
     "jodie whittaker": {
         doctorRegeneration: 14,
-        doctorIncarnation: 13,
+        doctorIncarnation: "Thirteenth Doctor",
         originalActor: "Jodie Whittaker",
         seasons: 3,
         interestingFacts: "",
@@ -198,7 +198,7 @@ const doctors = {
     },
     "ncuti gatwa": {
         doctorRegeneration: 15,
-        doctorIncarnation: 14,
+        doctorIncarnation: "Fourteenth Doctor",
         originalActor: "Ncuti Gatwa",
         seasons: "unknown",
         interestingFacts: "",
