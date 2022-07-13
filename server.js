@@ -93,17 +93,17 @@ const doctors = {
         episodeLast: "The Trial of a Time Lord",
         tenure: "1984-1986",
     },
-    "sylvester mccoy": {
+    "seventhdoctor": {
         doctorRegeneration: 6,
         doctorIncarnation: "Seventh Doctor",
         originalActor: "Sylvester McCoy",
         seasons: 3,
-        interestingFacts: "",
-        style : "",
-        companions: [],
+        interestingFacts: "The Seventh Doctors personalty changed drastically during the season, from charming and easygoing to devious and calculating.",
+        style : "He often appeared in an ivory jacket with a pocket watch in the top left pocket and a paisley scarf under the collar; a plain white shirt and paisley tie; a tan sweater vest with green zig-zags and red question marks; plaid tweed pants; a Panama hat with an upturned brim; a black umbrella with a red question mark-shaped handle.",
+        companions: ['Mel Bush', 'Ace'],
         image: "",
-        episodeFirst: "",
-        episodeLast: "",
+        episodeFirst: "Time and the Rani",
+        episodeLast: "Survival",
         tenure: "1987-1989",
     },
     "paul mcgann": {
