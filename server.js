@@ -27,6 +27,7 @@ const doctors = {
         episodeFirst: "An Unearthly Child",
         episodeLast: "The Tenth Planet",
         tenure: "1963-1966",
+        quote: "",
     },
     "seconddoctor": {
         doctorRegeneration: 1,
@@ -40,6 +41,7 @@ const doctors = {
         episodeFirst: "The Power of the Daleks",
         episodeLast: "The War Games",
         tenure: "1966-1969",
+        quote: "",
     },
     "thirddoctor": {
         doctorRegeneration: 2,
@@ -53,6 +55,7 @@ const doctors = {
         episodeFirst: "Spearhead from Space",
         episodeLast: "Planet of the Spiders",
         tenure: "1970-1974",
+        quote: "",
     },
     "fourthdoctor": {
         doctorRegeneration: 3,
@@ -66,6 +69,7 @@ const doctors = {
         episodeFirst: "Robot",
         episodeLast: "Logopolis",
         tenure: "1974-1981",
+        quote: "",
     },
     "fifthdoctor": {
         doctorRegeneration: 4,
@@ -79,6 +83,7 @@ const doctors = {
         episodeFirst: "Castrovalva",
         episodeLast: "The Caves of Androzani",
         tenure: "1982-1984",
+        quote: "",
     },
     "sixthdoctor": {
         doctorRegeneration: 5,
@@ -92,6 +97,7 @@ const doctors = {
         episodeFirst: "The Twin Dilemma",
         episodeLast: "The Trial of a Time Lord",
         tenure: "1984-1986",
+        quote: "",
     },
     "seventhdoctor": {
         doctorRegeneration: 6,
@@ -105,6 +111,7 @@ const doctors = {
         episodeFirst: "Time and the Rani",
         episodeLast: "Survival",
         tenure: "1987-1989",
+        quote: "",
     },
     "paul mcgann": {
         doctorRegeneration: 7,
@@ -118,6 +125,7 @@ const doctors = {
         episodeFirst: "",
         episodeLast: "",
         tenure: "1996",
+        quote: "",
     },
     "john hurt": {
         doctorRegeneration: 8,
@@ -131,6 +139,7 @@ const doctors = {
         episodeFirst: "",
         episodeLast: "",
         tenure: "2013",
+        quote: "",
     },
     "christopher eccleston": {
         doctorRegeneration: 9,
@@ -144,6 +153,7 @@ const doctors = {
         episodeFirst: "",
         episodeLast: "",
         tenure: "2005",
+        quote: "",
     },
     "david tennant": {
         doctorRegeneration: 10,
@@ -157,6 +167,7 @@ const doctors = {
         episodeFirst: "",
         episodeLast: "",
         tenure: "2005-2010",
+        quote: "",
     },
     "matt smith": {
         doctorRegeneration: 12,
@@ -170,6 +181,7 @@ const doctors = {
         episodeFirst: "",
         episodeLast: "",
         tenure: "2010-2013",
+        quote: "",
     },
     "peter capaldi": {
         doctorRegeneration: 13,
@@ -183,6 +195,7 @@ const doctors = {
         episodeFirst: "",
         episodeLast: "",
         tenure: "2014-2017",
+        quote: "",
     },
     "jodie whittaker": {
         doctorRegeneration: 14,
@@ -196,6 +209,7 @@ const doctors = {
         episodeFirst: "",
         episodeLast: "",
         tenure: "2018-2022",
+        quote: "",
     },
     "ncuti gatwa": {
         doctorRegeneration: 15,
@@ -209,6 +223,7 @@ const doctors = {
         episodeFirst: "",
         episodeLast: "",
         tenure: "forthcoming",
+        quote: "",
     },
 };
 
